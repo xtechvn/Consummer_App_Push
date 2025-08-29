@@ -15,6 +15,7 @@
         public string Phone { get; set; }
         public string Email { get; set; }
         public string ClientName { get; set; }
+        public string CitizenId { get; set; }
         public byte? isReceiverInfoEmail { get; set; }
     }
 }
