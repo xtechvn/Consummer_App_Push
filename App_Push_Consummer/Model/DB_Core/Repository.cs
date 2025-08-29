@@ -334,6 +334,7 @@ namespace App_Push_Consummer.Model.DB_Core
                     new SqlParameter("@IsRegisterAffiliate", DBNull.Value),
                     new SqlParameter("@ReferralId", DBNull.Value),
                     new SqlParameter("@ParentId", DBNull.Value),
+                    new SqlParameter("@CitizenId", model.CitizenId),
 
                 };
 

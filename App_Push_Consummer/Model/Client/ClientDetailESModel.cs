@@ -14,5 +14,6 @@ namespace App_Push_Consummer.Model.Client
         public int? Gender { get; set; }
         public DateTime? Birthday { get; set; }
         public string Phone { get; set; }
+        public string CitizenId { get; set; }
     }
 }
